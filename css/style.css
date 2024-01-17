@@ -714,8 +714,8 @@ h6,
 @media (max-width: 800px) {
     .bg-col{
       
-        margin-left:30px ;
-        margin-top:200px;
+        margin-left:-25px ;
+        margin-top:190px;
         width: 500px;
         height: 400px;
     }
