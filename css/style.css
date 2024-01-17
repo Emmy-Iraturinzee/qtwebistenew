@@ -715,7 +715,9 @@ h6,
     .bg-col{
       
         margin-left:30px ;
-        margin-top: 120px;
+        margin-top:200px;
+        width: 500px;
+        height: 400px;
     }
     .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
@@ -1030,7 +1032,7 @@ h6,
            
           }
           #text{
-           font-size: 40px;
+           font-size: 30px;
           }
       }
       /* cursor */
