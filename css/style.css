@@ -703,11 +703,12 @@ h6,
     
 }
 .bg-col{
-    width: 550px;
+    width: 570px;
     height: 400px;
-    background-color: #00000050;
+    background-color: #00000031;
    justify-content: center;
    margin-top: 100px;
+   border-radius: 10px;
 }
 @media (max-width: 800px) {
     .bg-col{
