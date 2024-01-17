@@ -502,7 +502,7 @@ h6,
     align-items: center;
 }
 
-.testimonial-carousel .owl-nav .owl-prev,
+/* .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next {
     margin: 5px 0;
     width: 40px;
@@ -516,7 +516,7 @@ h6,
     border-radius: 40px;
     font-size: 18px;
     transition: .5s;
-}
+} */
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
