@@ -18,6 +18,7 @@ body{
     visibility: hidden;
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
+  
 }
 
 #spinner.show {
@@ -285,6 +286,7 @@ h6,
 }
 .img-load{
     animation: scale 1s linear infinite !important;
+    margin-left: -30px;
   }
   .img-1{
     animation: scale 40s linear infinite !important;

@@ -25,6 +25,10 @@
         }
     });
 
+// video speed decrease
+document.querySelector('#bg-video').defaultPlaybackRate = 0.1;
+document.querySelector('#bg-video').play();
+
 
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
