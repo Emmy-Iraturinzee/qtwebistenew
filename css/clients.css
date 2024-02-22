@@ -1,0 +1,88 @@
+.logo{
+    width:20% !important;
+    margin-top: 20px !important;
+}
+
+#work-filter { 
+    transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1); 
+    padding: 0rem 3.5vw 1rem 3.5vw; 
+    display: flex;
+    justify-content: center;
+  }
+   
+  
+  #work-filter .btn {
+    font-size: .8rem;
+    line-height: 1.25;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 6px 9px;   
+    margin: 0.5rem 0.25rem 0.25rem 0;
+    background-color: #ffffff80;
+    color: black;
+    border-radius: 20px;
+    transition: all .5s;
+  }
+  
+  #work-filter .btn:hover {
+    background-color: white;
+    color: #12129b;
+  }
+  
+  #work-filter .btn.active {
+    background-color: #12129b;
+    color: white;
+  }
+  
+  .filterDiv {
+    display: none; 
+  }
+  
+  .show {
+    display: flex;
+   
+  }
+  
+
+ 
+
+
+
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (min-width: 320px) {
+    .img-client {
+      width: 80px;
+      height: 70px;
+    }
+  }
+  
+  @media (min-width: 480px) {
+    .img-client {
+      width: 120px;
+      height: 100px;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .img-client{
+      width: 180px;
+      height: 160px;
+    }
+  }
+  
+  @media (min-width: 801px) {
+    .img-client {
+      width: 200px;
+      height: 180px;
+      margin: 2px;
+    }
+  }
+  

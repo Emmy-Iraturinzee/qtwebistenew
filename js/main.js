@@ -261,5 +261,54 @@ $(window).mousemove(function (e) {
   );
 });
 
-// carousel
+// clients
 
+filterSelection('all');
+
+function filterSelection(c) {
+  let b; 
+  let i;
+
+  b = document.getElementsByClassName('filterDiv');
+  if (c == 'all') c = '';
+  for (i = 0; i < b.length; i++) {
+    RemoveClass(b[i], 'show');
+    if (b[i].className.indexOf(c) > -1) AddClass(b[i], 'show');
+  }
+}
+
+function AddClass(element, name) {
+  let i; let arr1; let
+    arr2;
+  arr1 = element.className.split(' ');
+  arr2 = name.split(' ');
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += ` ${arr2[i]}`;
+    }
+  }
+}
+
+function RemoveClass(element, name) {
+  let i; let arr1; let
+    arr2;
+  arr1 = element.className.split(' ');
+  arr2 = name.split(' ');
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(' ');
+}
+
+// Add active class to the current button (highlight it)
+const workFilter = document.getElementById('work-filter');
+const btns = workFilter.getElementsByClassName('btn');
+for (let i = 0; i < btns.length; i++) {
+  btns[i].addEventListener('click', function() {
+    const current = document.getElementsByClassName('active');
+    current[0].className = current[0].className.replace(' active', '');
+    this.className += ' active';
+  });
+};
