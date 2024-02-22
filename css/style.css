@@ -732,6 +732,10 @@ h6,
    
     
 }
+.proj-img{
+  width: 500px !important;
+}
+
 }
 
 .logo{
@@ -1046,6 +1050,9 @@ h6,
             height: 150%;
             margin-bottom: 20px;
             margin-left: 10px !important;
+          }
+          .time-text{
+            display: block;
           }
       }
       /* cursor */
