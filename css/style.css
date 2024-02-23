@@ -290,6 +290,7 @@ h6,
   }
   .img-1{
     animation: scale 40s linear infinite !important;
+   
   }
     
   @keyframes scale {
@@ -994,10 +995,10 @@ h6,
         transition: all 0.3s ease-in-out;
         overflow: hidden;
       }
-      .card-1{
-        margin-left: 70px !important;
+      /* .card-1{
+        margin: 100px !important;
       }
-      
+       */
       .card-t:hover {
         box-shadow: rgb(0,0,0) 5px 10px 50px ,rgb(0,0,0) -5px 0px 250px;
         transform: scale(-2px);
@@ -1054,6 +1055,9 @@ h6,
           .time-text{
             display: block;
           }
+      }
+      .hero-bgr{
+        background-image: url(i);
       }
       /* cursor */
       .cursor {
@@ -1140,3 +1144,15 @@ h6,
 }
 
 /* subscribe */
+
+header {
+    height: 600px;
+    width: 100vw;
+    background: black;
+    overflow: hidden;
+}
+
+.img-bg {
+ background-position: center;
+   opacity: 0.4;
+}
