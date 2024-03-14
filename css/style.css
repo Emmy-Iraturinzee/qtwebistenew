@@ -1180,9 +1180,10 @@ h6,
            margin-top: 100px;
            width: 400px;
           }
-         #scroll-wrapper{
-          top: 50;
-          left: 50;
+         .scroll-wrapper-link
+      {
+         display: none;
+        
          }
          
           .card-t{
