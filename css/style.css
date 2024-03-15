@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: #031115;
+  background: linear-gradient(180deg, rgba(1,9,10,1) 0%, rgba(5,42,51,1) 100%);
 }
 /*** Spinner ***/
 #spinner {
@@ -51,7 +51,24 @@ h1{
     font-weight: 700 !important;
     font-style: normal;
 }
-
+/* #services{
+  background-color:#08313b1b;
+}
+#testimonials{
+  background-color:#0c55653a;
+}
+#projects{
+  background-color:#0c546547;
+}
+#clients{
+  background-color:#0c546547;
+}
+#contact{
+  background-color:#0c546547;
+}
+#footer{
+  background-color:#0c546547;
+} */
 h4,
 h5,
 h6,
@@ -128,9 +145,9 @@ h6,
 .btn {
     font-weight: 500;
     transition: .5s;
-    background-color: #054163;
+    /* background-color: #054163; */
     color: white;
-    border-color: #054163 ;
+    /* border-color: #054163 ; */
    
 }
 .hero-span{
@@ -725,7 +742,7 @@ h6,
     background-color: #031115cc;
     top: 0;
     left: 0;
-    height: 105%;
+    height: 103%;
     
     width: 100%;
 }
@@ -1875,3 +1892,65 @@ header {
 
   color: rgb(255, 252, 252);
 }
+
+/* cursor */
+.mscursor-cursor {
+  pointer-events: none;
+  position: fixed;
+  display: block;
+  border-radius: 0;
+  top: 0;
+  left: 0;
+  z-index: 9999999999999999;  
+}
+.mscursor-difference{
+  mix-blend-mode: difference;
+}
+.mscursor-circle {
+    transform-origin: center;
+    position: absolute;
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 20px;
+}
+.mscursor-border-transform{
+  animation: border-transform 3s linear infinite;
+}
+@keyframes border-transform {
+  0%,
+  100% {
+    border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+  }
+  14% {
+    border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+  }
+  28% {
+    border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+  }
+  42% {
+    border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+  }
+  56% {
+    border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+  }
+  70% {
+    border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+  }
+  84% {
+    border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+  }
+}
+.mscursor-scale{
+  transition: .5s ease;
+  transform: scale(1.6);
+}
+.mscursor-scale-outline{
+  transform:scale(1.9);
+  background-color: transparent !important;
+}
+
+.mscursor-nocursor{
+  cursor:none!important;
+}
+
